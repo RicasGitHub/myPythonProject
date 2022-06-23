@@ -50,7 +50,7 @@ def main():
             for n in team:
                 print(n)
 
-            print("\t1. Sell players ")
+            print("\t1. Sell a player ")
             print("\t2. Go back to main menu")
 
         elif sel ==2:
@@ -59,21 +59,26 @@ def main():
         
 
         elif sel == 3:
-            print()
+            print("These are the players that are up for sale")
+            print("\t1. Buy a player")
+            print("\t2. Go back to main menu")
 
 
 
         elif sel == 4:
-            print()
+            print("This is your current team!")
 
 
         elif sel == 5:
-            print() 
+            print("You are know exiting the program, goodbye!") 
+
+            break
 
 
 
         else:
             print("please enter a valid input.")
+
             
             
 
