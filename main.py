@@ -5,7 +5,7 @@ from tabulate import tabulate
 mydb = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="Jennifer1992",
+    password=" ",
     database="mypythonproject"
 
 )
